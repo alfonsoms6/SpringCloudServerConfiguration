@@ -1,21 +1,26 @@
 eureka.client.serviceUrl.defaultZone: http://localhost:8010/eureka/
 ---
+spring.application.name=lab-4-subject
 spring.config.activate.on-profile: subject
 words: I,You,He,She,It
 
 ---
+spring.application.name=lab-4-verb
 spring.config.activate.on-profile: verb
 words: ran,knew,had,saw,bought
 
 ---
+spring.application.name=lab-4-article
 spring.config.activate.on-profile: article
 words: a,the
 
 ---
+spring.application.name=lab-4-adjective
 spring.config.activate.on-profile: adjective
 words: reasonable,leaky,suspicious,ordinary,unlikely
 
 ---
+spring.application.name=lab-4-noun
 spring.config.activate.on-profile: noun
 words: boat,book,vote,seat,backpack,partition,groundhog  
 
